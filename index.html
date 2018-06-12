@@ -117,7 +117,7 @@
 
 							<div class="box-archive-item-description">
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>经过学习试着对课上内容做一个简单的总结。</p>
-<p><div align="center"><br><img src="/2018/06/12/http简介/FugjL-PvCAzD-lRKPprhLktKuOKi.png" alt="示意图"></div></p>
+<p><div align="center"><br><img src="/2018/06/12/http简介/FugjL-PvCAzD-lRKPprhLktKuOKi.png =300" alt="示意图"></div></p>
 <h2 id="HTTP-请求部分"><a href="#HTTP-请求部分" class="headerlink" title="HTTP 请求部分"></a>HTTP 请求部分</h2><ol>
 <li>HTTP请求是指从客户端到服务器端的请求消息。包括：消息首行中，对资源的请求方法、资源的标识符及使用的协议。<br>HTTP发送请求信息内容：<pre><code>1) 请求行：是一个ASCII文本行，由三个标记组成--请求的HTTP方法、URL、HTTP版本，之间用空格分开{GET /lovobook/index.html HTTP/1.0}；
 2) 请求头：HTTP协议使用HTTP头来传递请求的元信息。HTTP头是一个用冒号分隔的名称/值对，冒号前面是HTTP头发名称，后面是HTTP的值；
@@ -139,7 +139,7 @@
 </li>
 <li><p>curl的常用选项：<br>复制代码<br>1  -A/–user-agent <string> 设置用户代理发送给服务器，即告诉服务器浏览器为什么<br>2  -basic 使用HTTP基本验证<br>3  –tcp-nodelay 使用TCP_NODELAY选项<br>4  -e/–referer <url> 来源网址，跳转过来的网址<br>5  –cacert <file> 指定CA证书 (SSL)<br>6  –compressed 要求返回是压缩的形势，如果文件本身为一个压缩文件，则可以下载至本地<br>7  -H/–header <line></line>自定义头信息传递给服务器<br>8  -I/–head 只显示响应报文首部信息<br>9  –limit-rate <rate> 设置传输速度<br>10  -u/–user &lt;user[:password]&gt;设置服务器的用户和密码<br>11  -0/–http1.0 使用HTTP 1.0</rate></file></url></string></p>
 </li>
-<li><p>示例<br>curl -s -v -H “Frank: xxx” – “<a href="https://www.baidu.com&quot;" target="_blank" rel="noopener">https://www.baidu.com&quot;</a><br><div align="center"><br><img src="/2018/06/12/http简介/FnhIuZBj-bNFEkSqvLSdNXo_em5x.png" alt="示意图"><br>请求的内容为</div></p>
+<li><p>示例<br>curl -s -v -H “Frank: xxx” – “<a href="https://www.baidu.com&quot;" target="_blank" rel="noopener">https://www.baidu.com&quot;</a><br><div align="center"><br><img src="/2018/06/12/http简介/FnhIuZBj-bNFEkSqvLSdNXo_em5x.png =300" alt="示意图"><br>请求的内容为</div></p>
 </li>
 </ol>
 <p>GET / HTTP/1.1<br>Host: <a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a><br>User-Agent: curl/7.54.0<br>Accept: <em>/</em><br>Frank: xxx</p>
